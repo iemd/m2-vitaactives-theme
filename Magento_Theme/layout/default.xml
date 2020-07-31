@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <!--<referenceContainer name="footer-container" remove="true"/>-->
+        <referenceContainer name="header.panel.wrapper" remove="true"/>
+        <referenceContainer name="header-wrapper" remove="true"/>
+        <referenceContainer name="page.top" remove="true"/>
+        <referenceContainer name="footer" remove="true"/>
+        <!--<referenceBlock name="wishlist_sidebar" remove="true" />
+        <referenceBlock name="my-account-link" remove="true" />
+        <referenceBlock name="compare-products-link" remove="true" />-->
+
+        <referenceContainer name="header.container">
+          <block class="Magento\Cms\Block\Block" name="header_navbar">
+             <arguments>
+                <argument name="block_id" xsi:type="string">header_navbar</argument>
+             </arguments>
+         </block>
+        </referenceContainer>
+        <referenceContainer name="footer-container">
+          <block class="Magento\Cms\Block\Block" name="footer_links">
+             <arguments>
+                <argument name="block_id" xsi:type="string">footer_links</argument>
+             </arguments>
+         </block>
+        </referenceContainer>
+
+    </body>
+</page>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="css/bootstrap.min.css"/>
+        <css src="https://fonts.googleapis.com/css?family=Lato" src_type="url" />
+        <css src="css/fontawesome.min.css"/>
+        <css src="https://fonts.googleapis.com/css?family=Montserrat" src_type="url" />
+        <css src="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,800;0,900;1,500;1,900&amp;display=swap" src_type="url" />
+        <link src="js/jquery.min.js" />
+        <link src="js/bootstrap.min.js" />
+        <css src="css/veta.css"/>
+        <!--<css src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" src_type="url" />
+        <css src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" src_type="url" />
+        <link src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" src_type="url" />
+        <link src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js" src_type="url" />-->
+    </head>
+</page>

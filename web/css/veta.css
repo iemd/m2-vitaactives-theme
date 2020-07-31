@@ -1,0 +1,1120 @@
+.page-layout-vitahome .page-main{
+	max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+#nb-header{margin-bottom: 0}
+#footer{padding-bottom:40px}
+#maincontent{max-width: 1170px}
+.page-title-wrapper{margin-top: 50px}
+body.page-layout-vitahome{
+font-family: Muli;
+}
+.columns .column.main{
+overflow: hidden;
+}
+.navigation, .breadcrumbs, .page-header .header.panel, .header.content, .footer.content, .page-wrapper>.widget, .page-wrapper>.page-bottom, .block.category.event, .top-container, .page-main {
+box-sizing: border-box;
+margin-left: auto;
+margin-right: auto;
+max-width: 100%;
+padding-left: 0px;
+padding-right: 0px;
+width: auto;
+}
+.Group-4 {
+width: 35px;
+height: 35px;
+object-fit: contain;
+}
+h1{
+font-weight: 900;
+font-size: 60px;
+}
+h2{
+font-weight: 900;
+font-size: 40px;
+}
+.relative {
+position: relative;
+}
+.absolute {
+position: absolute;
+}
+.bottom{
+bottom: 0px;
+}
+.left{
+left: 0px;
+}
+.top{
+top: 0px;
+}
+.right{
+right: 0px;
+}
+.floatimg {
+width: 140px;
+height: auto;
+}
+
+.floatimg80 {
+width: 99px;
+height: auto;
+margin-top: -80px;
+}
+.color-blue{
+color: #00509e;
+}
+p{
+color: #1c3349;
+}
+.font21 {
+font-size: 21px;
+}
+h3{
+font-weight: 700;
+}
+.section {
+padding: 30px 0px;
+}
+.fullwith-image{
+width: 100%;
+height: auto;
+}
+.btn-design1 {
+background: #ff7178;
+color: #ffffff;
+}
+.btn-design2 {
+background: transparent;
+border: 2px solid #6c9ac7;
+color: #6c9ac7;
+}
+.btn-design4 {
+background-color: #ffffff;
+color: #ff7178;
+}
+.btn-design5 {
+background-color: transparent;
+border: 2px solid #ff7178;
+color: #ff7178;
+}
+.header1 {
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+margin-bottom: 25px;
+}
+.thumb1 {
+background: #ffffff;
+box-shadow: 1px 1px 14px 1px #e4e4e4;
+border-radius: 10px;
+padding-top: 30px;
+background-repeat: no-repeat;
+background-size: 100px;
+min-height: 270px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: relative;
+padding-bottom: 50px;
+overflow: hidden;
+}
+.col-sm-3:nth-child(1) .thumb1 { background-image: url(http://ec2-13-233-116-111.ap-south-1.compute.amazonaws.com/Magentol/pub/media/wysiwyg/images/aa1.png);    }
+.col-sm-3:nth-child(2) .thumb1 { background-image: url(http://ec2-13-233-116-111.ap-south-1.compute.amazonaws.com/Magentol/pub/media/wysiwyg/images/aa2.png);    }
+.col-sm-3:nth-child(3) .thumb1 { background-image: url(http://ec2-13-233-116-111.ap-south-1.compute.amazonaws.com/Magentol/pub/media/wysiwyg/images/aa3.png);    }
+.col-sm-3:nth-child(4) .thumb1 { background-image: url(http://ec2-13-233-116-111.ap-south-1.compute.amazonaws.com/Magentol/pub/media/wysiwyg/images/aa41.png);    }
+.thumb1 .content{
+padding: 10px;
+
+}
+.thumb1 .btn-design1{
+width: 100%;
+border-radius: unset;
+padding:15px;
+position: absolute;
+bottom: 0px;
+left: 0px;
+right: 0px;
+}
+.smallthumb img{
+max-width: 100%;
+max-height: 100%;
+}
+.sixbox {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 30px;
+color: #ffffff;
+background-size: 100% 100%;
+border-radius: 20px 0px 0px;
+overflow: hidden;
+}
+.gradientback {
+background: linear-gradient(90deg, #a6cddc, #bfc5cf, #e4b8bd);
+color: #ffffff;
+padding-bottom: 70px;
+margin-bottom: 30px;
+padding-top: 40px;
+margin-top: 30px;
+}
+.grayback {
+background: #bfc5cf;
+}
+.lightgreenback {
+background: #e3fcf3;
+}
+.toppull {
+position: relative;
+top: -90px;
+background: #ffffff;
+box-shadow: 0px 0px 5px 0px #aaaaaa;
+padding: 10px;
+border-radius: 10px;
+}
+.onlytoppull {
+position: relative;
+top: -125px;
+}
+.atag1 {
+font-size: 32px;
+display: inline-block;
+padding: 0px 40px;
+}
+.whitebox {
+width: 100px;
+height: 100px;
+background: #ffffff;
+/*margin-bottom: 20px;*/
+border-radius: 10px;
+}
+.bluebox{
+width: 100px;
+height: 100px;
+background: #ffffff;
+/*margin-bottom: 20px;*/
+border-radius: 10px;
+background-color: #8f95b9;
+
+}
+.blueboxsec {
+padding: 15px;
+
+color: #ffffff;
+border-radius: 10px;
+}
+.headersection{
+padding-top: 0px;
+}
+.navbar-brand>img {
+top: -20px;
+position: relative;
+box-shadow: 0px 0px 12px -3px #aaaaaa;
+border-radius: 0px 0px 20px;
+}
+.nav.navbar-nav li a {
+font-weight: 500 !important;
+
+font-size: 16px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #1c3349;
+}
+.nav.navbar-right img {
+width: 20px;
+height: 20px;
+}
+.grayshade{
+position: relative;
+background: transparent;
+}
+.grayshade::before{
+content: " ";
+position: absolute;
+background: #e7e7e7;
+top: 85px;
+width: 100%;
+bottom: 200px;
+z-index: -1;
+}
+.smallthumb {
+background: white;
+box-shadow: 1px 1px 14px 1px #e4e4e4;
+border-radius: 10px;
+padding: 20px;
+text-align: center;
+}
+footer a {
+font-size: 14px;
+font-weight: 500;
+}
+footer ul {
+list-style: none;
+padding: 0px;
+}
+/* footer ul li {
+padding: 5px 0px;
+} */
+.color-main {
+color: #6b7b89 !important;
+font-size: 14px;
+}
+.headdetails {
+background-color: #fef9e5;
+}
+.bottomm170 {
+bottom: -170px;
+}
+.bottomm150 {
+bottom: -150px;
+}
+.topm100 {
+top: -170px;
+}
+.whatwedo {
+float: right;
+width: 80%;
+position: relative;
+}
+.whatwedo:before {
+content: " ";
+position: absolute;
+width: 100%;
+height: 100%;
+bottom: -30px;
+left: -30px;
+background-color: #d9f4fc;
+z-index: -1;
+}
+.whatwedo img {
+width: 80%;
+max-width: 100%;
+}
+.innovationsection {
+margin-top: 100px;
+}
+.innovationsection:before {
+content: " ";
+position: absolute;
+width: 100%;
+top: 92px;
+bottom: 130px;
+background-color: #f9f8fc;
+z-index: -1;
+}
+.innovation {
+position: relative;
+left: -15px;
+width: 90%;
+height: auto;
+}
+.innovation:before {
+content: " ";
+position: absolute;
+width: 100%;
+top: 100px;
+bottom: -30px;
+right: -30px;
+background-color: #f7eaf5;
+z-index: -1;
+}
+.innovation .arrow-bottom {
+width: 0;
+height: 0;
+border-left: 39px solid transparent;
+border-right: 36px solid transparent;
+border-top: 29px solid #ff7178;
+position: absolute;
+bottom: -49px;
+right: 0px;
+transform: translateX(-140px);
+}
+.Retinyl-acetate-325 {
+
+font-size: 20px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #1c3349;
+}
+
+.view{
+border: 1px solid #00509e;
+line-height: 28px;
+font-size: 16px;
+font-weight: 500;
+text-align: center;
+border-radius: 10px;
+text-decoration: none;
+width: 102px;
+height: 40px;
+}
+
+.innovationright {
+padding: 50px 0px;
+padding-right: 16%;
+}
+.innovationbottom {
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px 0px #aaa;
+margin-top: 100px;
+}
+.innovationbottom p{
+display: flex;
+justify-content: space-around;
+}
+.innovationbottom span{
+font-size: 40px;
+line-height: 47px;
+color: #1c3349;
+padding: 10px;
+display: inline-block;
+}
+.innovationbottom span.active{
+color: #00509e;
+}
+.Mask {
+width: 144px;
+height: 120px;
+z-index: 999;
+border-radius: 20px;
+margin-bottom: -47px;
+box-shadow: 0 17px 26px 0 rgba(28, 51, 73, 0.07);
+background-color: #ffffff;
+}
+.Mask2 {
+border-radius: 15px;
+box-shadow: 0 17px 26px 0 rgba(28, 51, 73, 0.07);
+background-color: #ffffff;
+}
+.Formulation-Solution {
+
+font-size: 40px;
+font-weight: 900;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.18;
+letter-spacing: normal;
+color: #00509e;
+}
+.Ingredients-Copy {
+opacity: 0.3;
+
+font-size: 40px;
+font-weight: 900;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.18;
+letter-spacing: normal;
+color: #1c3349;
+}
+.Vita-Actives-manufac1 {
+opacity: 0.6;
+
+font-size: 20px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.6;
+letter-spacing: normal;
+color: #1c3349;
+width: 80%;
+}
+.Services1 {
+
+font-size: 50px;
+font-weight: 900;
+margin: 0px !important;
+font-stretch: normal;
+font-style: normal;
+line-height: 0.8;
+letter-spacing: normal;
+color: #ffffff;
+}
+.media-service .media-body{
+position: relative;
+}
+.media-service .media-right .fa{
+/*    position: absolute;
+top: 0px;
+right: 0px;*/
+color: #ffffff;
+font-size: 30px;
+line-height: 1;
+}
+.media-tools .media-right .fa{
+/*    position: absolute;
+top: 0px;
+right: 0px;*/
+color: #1c3349;
+font-size: 30px;
+line-height: 1;
+}
+.Chemistry-Services {
+
+font-size: 25px;
+padding: 0px 20px;
+font-weight: 900;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.2;
+letter-spacing: normal;
+
+color: #ffffff;
+}
+.Path-2 {
+transform: rotate(-270deg);
+border: solid 2.2px #ffffff;
+}
+.Anthem-Biosciences {
+
+font-size: 20px;
+padding-left: 20px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.4;
+letter-spacing: normal;
+color: #ffffff;
+}
+.servicetools {
+margin: 100px 0px;
+}
+.servicetools:before{
+content: " ";
+position: absolute;
+top: 70px;
+width: 100%;
+bottom: 120px;
+background: #f9f8fc;
+}
+.Rectangle-Copy-4 {
+/*width: 100%;*/
+/*height: 586px;*/
+border-radius: 15px;
+box-shadow: 0 17px 26px 0 rgba(28, 51, 73, 0.07);
+background-color: #ffffff;
+position: relative;
+top: 100px;
+padding: 70px 50px 50px 50px;
+}
+.Tools {
+
+font-size: 50px;
+margin: 0px;
+font-weight: 900;
+font-stretch: normal;
+font-style: normal;
+line-height: 0.8;
+letter-spacing: normal;
+color: #1c3349;
+}
+.Rectangle-Copy-4 .header1 {
+margin-bottom: 40px;
+}
+.EU-Authorised-Health {
+/*width: 264px;*/
+padding: 0px 20px;
+
+font-size: 25px;
+font-weight: 900;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.4;
+letter-spacing: normal;
+color: #1c3349;
+}
+.Are-you-looking-for {
+
+font-size: 50px;
+font-weight: 900;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.2;
+letter-spacing: normal;
+text-align: center;
+color: #ffffff;
+}
+.Vita-Actives-manufac {
+
+font-size: 24px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.67;
+letter-spacing: normal;
+text-align: center;
+color: #ffffff;
+}
+.Subscribe-to-latest {
+
+font-size: 20px;
+font-weight: 800;
+margin-left: 8px;
+width: 73%;
+margin-top: 42px;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #1c3349;
+}
+.Rectangle22 {
+width: 288px;
+height: 47px;
+border-radius: 5px;
+border: solid 1px #a8cddb;
+padding: 20px;
+}
+.Markets {
+
+font-size: 20px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #1c3349;
+}
+.Sports-Nutrition-and {
+opacity: 0.8;
+
+font-size: 18px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 2;
+letter-spacing: normal;
+color: #1c3349;
+}
+.Amino-Acids-Vitamins {
+opacity: 0.8;
+
+font-size: 18px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 2;
+letter-spacing: normal;
+color: #1c3349;
+}
+.We-value-your-feedba {
+
+font-size: 20px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #1c3349;
+}
+
+.Your-input-is-welcom {
+width: 259px;
+height: 90px;
+opacity: 0.6;
+
+font-size: 18px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.67;
+letter-spacing: normal;
+color: #1c3349;
+}
+
+.Rectanglez {
+width: 149px;
+margin-top: 20px;
+line-height: 49px;
+border-radius: 10px;
+background-color: #ff7178;
+}
+.About-Us {
+/*opacity: 0.8;*/
+
+font-size: 16px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #1c3349;
+}
+.Get-a-quote {
+text-decoration: none;
+margin-left: 31px;
+
+font-size: 16px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 41px;
+text-align: center;
+letter-spacing: normal;
+color: #ffffff;
+}
+.Our-Range {
+
+opacity: 0.8;
+
+font-size: 16px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #1c3349;
+}
+.Vita-Premixes {
+opacity: 0.8;
+
+font-size: 16px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #1c3349;
+}
+.Services {
+opacity: 0.8;
+
+font-size: 16px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #1c3349;
+}
+.Search {
+opacity: 0.8;
+
+font-size: 16px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: right;
+color: #1c3349;
+}
+.Login {
+opacity: 0.8;
+
+font-size: 16px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #1c3349;
+}
+.Cart {
+opacity: 0.8;
+
+font-size: 16px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #1c3349;
+}
+.Oval {
+background-color: rgba(5,67,103, 0.2);
+padding: 5px 7px;
+color: #054367;
+position: relative;
+top: -2px;
+}
+/*.Rectangle12 {
+width: 149px;
+height: 50px;
+margin-top: 20px;
+line-height: 49px;
+border-radius: 10px;
+background-color: #ff7178;
+margin-left: -8px;
+
+}*/
+.Rectangle12 .btn-design1{
+height: 50px;
+width: 149px;
+border-radius: 10px;
+background-color: #ff7178;
+
+margin-top: 15px;
+font-size: 16px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: 30px;
+letter-spacing: normal;
+color: #ffffff;
+padding-top: 8px;
+}
+.Rectangle_text {
+width: 1400px;
+color: white;
+margin-left: 35px;
+height: 505px;
+text-align: center;
+line-height: 48px;
+font-size: 16px;
+font-weight: 600;
+}
+.Featured-Products {
+
+font-size: 50px;
+font-weight: 900;
+font-stretch: normal;
+font-style: normal;
+line-height: 0.8;
+letter-spacing: normal;
+color: #1c3349;
+margin-bottom: 0px;
+}
+.L-Leucine-powder-Hy {
+
+
+font-size: 20px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #1c3349;
+}
+.CAS-number-61-90-5 {
+opacity: 0.5;
+
+font-size: 16px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #1c3349;
+}
+.View-All {
+
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: right;
+color: #00509e;
+}
+.Rectangle_ser {
+border-radius: 15px;
+box-shadow: 0 17px 26px 0 rgba(28, 51, 73, 0.07);
+background-image: linear-gradient(182deg, #00509e 98%, #00509e 98%, #00509e -20%);
+padding: 70px 50px 50px 50px;
+margin-right: 15px;
+}
+.Rectangle_ser .header1 {
+margin-bottom: 50px;
+}
+.Are-you-reformulatin {
+
+font-size: 50px;
+margin-top: 70px;
+font-weight: 900;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.2;
+letter-spacing: normal;
+color: #1c3349;
+}
+.Vita-Actives-can-hel {
+width: 100%;
+min-height: 64px;
+margin-top: 50px;
+opacity: 0.6;
+
+font-size: 20px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.6;
+letter-spacing: normal;
+color: #1c3349;
+margin-bottom: 0px;
+}
+.Vita-Actives-can-hel .arrow-left {
+width: 36px;
+height: 57px;
+margin-top: 9px;
+border-top: 29px solid transparent;
+border-bottom: 35px solid transparent;
+border-right: 35px solid #ff2833;
+position: absolute;
+left: -42px;
+}
+.Beta-Alanine-powder {
+
+font-size: 20px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #1c3349;
+}
+.listhead{
+font-size: 16px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #1c3349;
+}
+.L-Isoleucine-powder {
+
+font-size: 20px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #1c3349;
+}
+.Enter-Email-Id {
+
+font-size: 16px;
+font-weight: bold;
+font-stretch: normal;
+border: none;
+text-align: left;
+font-style: normal;
+line-height: 38px;
+letter-spacing: normal;
+color: #d3e6ed;
+}
+.Explore-your-sector {
+
+font-size: 50px;
+font-weight: 900;
+margin-top: -16px;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.2;
+letter-spacing: normal;
+color: #1c3349;
+
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+outline: none;
+outline-offset: unset;
+}
+span.Ingredients-Copy:hover {
+color: #05509e;
+opacity: inherit;
+}
+.Rectanglebtn {
+width: 171px;
+height: 60px;
+border-radius: 10px;
+background-color: #ff7178;
+}
+.Vast-range-of-finest {
+/* width: 379px;
+height: 25px;*/
+opacity: 0.5;
+/*margin-left: -27px; ;*/
+
+font-size: 15px;
+font-weight: 800;
+margin-top: 15px;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #1c3349;
+}
+.Vita-Specialities {
+
+font-size: 50px;
+font-weight: 900;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.2;
+letter-spacing: normal;
+color: #1c3349;
+margin-bottom: 0px;
+}
+.Your-ingredient-in {
+width: 100%;
+min-height: 195px;
+
+font-size: 60px;
+font-weight: 900;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.08;
+letter-spacing: normal;
+color: #00509e;
+}
+.Rectangle_Detail {
+width: 251px;
+height: 50px;
+background-color: #ff7178;
+}
+.Health-Well-being {
+margin-left: -40px;
+
+font-size: 40px;
+font-weight: 900;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.15;
+position: absolute;
+letter-spacing: normal;
+color: #ffffff;
+}
+section > .container, nav > .container {
+width: unset !important;
+padding: 0px 100px;
+}
+/*Mobile startes here*/
+@media screen and (max-width: 767px) {
+section > .container, nav > .container{
+padding: 0px 15px !important;
+}
+.navbar-toggle{
+background: #00509e;
+width: 60px;
+height: 50px;
+}
+.navbar-toggle .icon-bar {
+background-color: #ffffff;
+width: 100%;
+margin: 6px 0px;
+}
+.navbar-nav {
+margin: 0px !important;
+}
+.navbar-collapse{
+padding-top: 40px;
+}
+.innovationbottom p {
+display: block;
+}
+.smallthumb {
+margin-bottom: 30px;
+}
+.whatwedo{
+width: 90%;
+margin-top: 30px;
+}
+.thumb1 {
+margin-bottom: 30px;
+}
+.floatimg80{
+width: 50px;
+height: auto;
+margin-top: 20px;
+}
+.Rectangle_ser, .Rectangle-Copy-4{
+padding: 40px 20px 20px 20px;
+margin-left: 0px !important;
+}
+.sixbox {
+position: relative;
+}
+.sixbox p{
+margin-left: unset !important;
+text-align: center;
+width: 100%;
+}
+.container {
+width: unset !important;
+padding: 0px 15px;
+}
+h1{
+font-size: 50px;
+}
+h2{
+font-size: 30px;
+}
+.innovationbottom span{
+font-size: 22px;
+}
+.Services1, .Tools {
+font-size: 32px;
+}
+.media-service .media-heading, .media-tools .media-heading{
+font-size: 24px;
+}
+.Your-ingredient-in, .Are-you-looking-for {
+font-size: 40px;
+}
+.header1 h1, .header1 h2, .Are-you-reformulatin, .Health-Well-being, .Explore-your-sector{
+font-size: 32px;
+}
+.Explore-your-sector {
+margin-top: 10px;
+}
+
+}
+/*Mobile ends here*/
+#myNavbar {
+position: relative;
+}
+.withmega .dropdown{
+position: static !important;
+}
+.megamenu-container{
+width: 100%;
+background: linear-gradient(90deg, #f8c400 12.5%, rgba(0, 0, 0, 0) 12.5%), linear-gradient(90deg, #00509e 25%, rgba(0, 0, 0, 0) 25%), linear-gradient(90deg, #ff7178 37.5%, rgba(0, 0, 0, 0) 37.5%), linear-gradient(90deg, #079e6a 50%, rgba(0, 0, 0, 0) 50%), linear-gradient(90deg, #db5635 62.5%, rgba(0, 0, 0, 0) 62.5%), linear-gradient(90deg, #003971 75%, rgba(0, 0, 0, 0) 75%), linear-gradient(90deg, #4fb100 87.5%, #ff9a00 87.5%) !important;
+padding: 0px;
+padding-bottom: 4px;
+border: 0px;
+box-shadow: 0px 0px 5px 0px #aaaaaa;
+}
+.megamenu-container>div{
+background: #ffffff;
+}
+.megamenu-container .vlist{
+list-style: none;
+}
+.megamenu-container .vlist.bold{
+font-weight: 600;
+}
+.megamenu-container .vlist h3{
+
+}
+.megamenu-container .vlist li{
+padding: 5px 0px;
+}
+.withmega .dropdown.open .dropdown-toggle:after {
+content: " ";
+width: 20px;
+height: 20px;
+position: absolute;
+left: 45%;
+bottom: -20px;
+background: white;
+box-shadow: 1px 1px 1px #aaa;
+transform: rotate(226deg);
+z-index: 10001;
+}
