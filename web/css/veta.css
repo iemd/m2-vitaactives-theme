@@ -4,11 +4,24 @@
     padding-right: 0 !important;
 }
 #nb-header{margin-bottom: 0}
+.nav-sections{display:none !important;}
+.breadcrumbs{display:none !important;}
 #footer{padding-bottom:40px}
 #maincontent{max-width: 1170px}
 .page-title-wrapper{margin-top: 50px}
 body.page-layout-vitahome{
 font-family: Muli;
+}
+.pagehead {
+    background: linear-gradient(90deg, #a6cddc, #bfc5cf, #e4b8bd);
+    color: #ffffff;
+		margin-bottom:30px;
+
+}
+.pagehead .page-title{
+    margin: 20px;
+	  font-weight: 900;
+    font-size: 60px;
 }
 .columns .column.main{
 overflow: hidden;

@@ -1,0 +1,35 @@
+<?php
+  $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+  $request = $objectManager->get('Magento\Framework\App\Action\Context')->getRequest();
+/*
+if ($request->getFullActionName() == 'catalog_product_view') {
+  //you are on the product page
+}
+if ($request->getFullActionName() == 'catalog_category_view') {
+//you are on the category page
+}
+if ($request->getFullActionName() == 'cms_index_index') {
+//you are on the home page
+}
+if ($request->getFullActionName() == 'cms_page_view') {
+//you are on the cms page
+}
+*/
+
+$storeManager = $objectManager->get('\Magento\Store\Model\StoreManagerInterface');
+$store = $storeManager->getStore();
+$baseUrl = $store->getBaseUrl();
+//$baseSecureUrl = $store->getBaseUrl(\Magento\Framework\UrlInterface::URL_TYPE_WEB, true);
+$mediaUrl = $objectManager->get('Magento\Store\Model\StoreManagerInterface')
+                    ->getStore()
+                    ->getBaseUrl(\Magento\Framework\UrlInterface::URL_TYPE_MEDIA);
+
+
+
+
+?>
+<ul class="nav navbar-nav navbar-right" style="margin-right: 18px;">
+<li><a style="color: #1c3349;" href="#"><img src="<?php echo $block->getViewFileUrl('images/search.png'); ?>"> Search</a></li>
+<li><a style="color: #1c3349;" href="<?php echo $baseUrl.'customer/account/login'; ?>" ><img style="overflow: hidden; image-rendering: pixelated;" src="<?php echo $block->getViewFileUrl('images/user.png'); ?>"> Login</a></li>
+<li><a style="color: #1c3349;" href="#">Cart <span class="badge Oval">0</span></a></li>
+</ul>

@@ -1,0 +1,45 @@
+<?php
+  $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+  $request = $objectManager->get('Magento\Framework\App\Action\Context')->getRequest();
+/*
+if ($request->getFullActionName() == 'catalog_product_view') {
+  //you are on the product page
+}
+if ($request->getFullActionName() == 'catalog_category_view') {
+//you are on the category page
+}
+if ($request->getFullActionName() == 'cms_index_index') {
+//you are on the home page
+}
+if ($request->getFullActionName() == 'cms_page_view') {
+//you are on the cms page
+}
+*/
+
+$storeManager = $objectManager->get('\Magento\Store\Model\StoreManagerInterface');
+$store = $storeManager->getStore();
+$baseUrl = $store->getBaseUrl();
+//$baseSecureUrl = $store->getBaseUrl(\Magento\Framework\UrlInterface::URL_TYPE_WEB, true);
+$mediaUrl = $objectManager->get('Magento\Store\Model\StoreManagerInterface')
+                    ->getStore()
+                    ->getBaseUrl(\Magento\Framework\UrlInterface::URL_TYPE_MEDIA);
+
+
+
+
+?>
+<?php
+if ($request->getFullActionName() == 'catalog_category_view') {
+?>
+<div class="navbar-header"><button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar"> </button>
+<div class="col-sm-4 "><a href="<?php echo $baseUrl;?>"><img style="margin: 6px 13px; max-width: fit-content; width: 77px;" src="<?php echo $block->getViewFileUrl('images/group-25.png'); ?>"></a></div>
+</div>
+<?php
+}else{
+?>
+<div class="navbar-header"><button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar"> </button>
+<div class="col-sm-4 Mask" style="width: 144px;"><a href="<?php echo $baseUrl;?>"><img class="Group-25 " style="margin: 17px 8px;" src="<?php echo $mediaUrl.'logo.png'; ?>" alt=""></a></div>
+</div>
+<?php
+ }
+ ?>
