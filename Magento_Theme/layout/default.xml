@@ -10,7 +10,7 @@
         <!--<referenceBlock name="wishlist_sidebar" remove="true" />
         <referenceBlock name="my-account-link" remove="true" />
         <referenceBlock name="compare-products-link" remove="true" />-->
-
+        <move element="page.main.title" destination="page.top" before="-"/>
         <referenceContainer name="header.container">
           <block class="Magento\Cms\Block\Block" name="header_navbar">
              <arguments>
@@ -18,9 +18,9 @@
              </arguments>
          </block>
         </referenceContainer>
-          <referenceContainer name="page.top">
+          <!--<referenceContainer name="page.top">
                 <block class="Magento\Framework\View\Element\Template" name="pagehead_file" template="Magento_Theme::html/pagehead.phtml"/>
-          </referenceContainer>
+          </referenceContainer>-->
         <referenceContainer name="footer-container">
           <block class="Magento\Cms\Block\Block" name="footer_links">
              <arguments>

@@ -35,8 +35,14 @@ if ($request->getFullActionName() == 'catalog_category_view') {
 <div class="col-sm-4 "><a href="<?php echo $baseUrl;?>"><img style="margin: 6px 13px; max-width: fit-content; width: 77px;" src="<?php echo $block->getViewFileUrl('images/group-25.png'); ?>"></a></div>
 </div>
 <?php
-}else{
+}else if($request->getFullActionName() == 'cms_page_view' || $request->getFullActionName() == 'customer_account_login' || $request->getFullActionName() == 'customer_account_create') {
 ?>
+<div class="navbar-header"><button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar"> </button>
+<div class="col-sm-4 "><a href="<?php echo $baseUrl;?>"><img style="margin: 6px 13px; max-width: fit-content; width: 77px;" src="<?php echo $block->getViewFileUrl('images/group-25.png'); ?>"></a></div>
+</div>
+<?php
+}else{
+ ?>
 <div class="navbar-header"><button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar"> </button>
 <div class="col-sm-4 Mask" style="width: 144px;"><a href="<?php echo $baseUrl;?>"><img class="Group-25 " style="margin: 17px 8px;" src="<?php echo $mediaUrl.'logo.png'; ?>" alt=""></a></div>
 </div>

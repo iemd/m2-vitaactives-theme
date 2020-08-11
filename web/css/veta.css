@@ -8,7 +8,7 @@
 .breadcrumbs{display:none !important;}
 #footer{padding-bottom:40px}
 #maincontent{max-width: 1170px}
-.page-title-wrapper{margin-top: 50px}
+/*.page-title-wrapper{margin-top: 50px}*/
 body.page-layout-vitahome{
 font-family: Muli;
 }
@@ -21,7 +21,23 @@ font-family: Muli;
 .pagehead .page-title{
     margin: 20px;
 	  font-weight: 900;
-    font-size: 60px;
+		font-size: 60px;
+}
+.page-title-wrapper {
+    background: linear-gradient(90deg, #a6cddc, #bfc5cf, #e4b8bd);
+    color: #ffffff;
+		margin-bottom:30px;
+
+}
+.page-title-wrapper .page-title{
+    margin: 20px;
+	  font-weight: 900;
+
+}
+.page-bottom {
+ max-width: 100% !important;
+ padding-left: 0 !important;
+ padding-right: 0 !important;
 }
 .columns .column.main{
 overflow: hidden;
@@ -1130,4 +1146,116 @@ background: white;
 box-shadow: 1px 1px 1px #aaa;
 transform: rotate(226deg);
 z-index: 10001;
+}
+/*-------------------*/
+.At-Vita-Actives {
+    opacity: 0.6;
+    font-family: Muli;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #1c3349;
+}
+.edito {
+    width: 473px;
+    height: 393px;
+    margin: 49px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px 0 rgba(28, 51, 73, 0.13);
+    background-color: #ffffff;
+}
+.text {
+    font-family: Muli;
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    margin: 36px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1c3349;
+}
+.gradant {
+    opacity: 0.6;
+    font-family: Muli;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 36px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #1c3349;
+}
+.Why-choose {
+    font-family: Muli;
+    font-size: 30px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #1c3349;
+}
+.digit {
+    text-align: center;
+    line-height: 1;
+    margin: 6px;
+}
+.dot {
+    height: 32px;
+    width: 32px;
+    margin-bottom: 12px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    border: solid 1px #00a265;
+    opacity: 0.6;
+    font-family: Muli;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #1c3349;
+}
+.alin {
+    position: absolute;
+    top: 88px;
+    opacity: 0.6;
+    padding-left: 15px;
+    font-family: Muli;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #1c3349;
+}
+.Write-To-Us{
+    line-height: 2;
+    font-family: Muli;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ff7178;
+}
+.col-sm-4.btn.Write-To-Us{
+    margin-left: 41px;
+}
+.btn{
+    width: 155px;
+    line-height: 2;
+  height: 50px;
+  border-radius: 10px;
+  border: solid 1px #ff7178;
+
 }

@@ -27,5 +27,14 @@ if ($request->getFullActionName() == 'catalog_category_view') {
 </div>
 </div>
 <?php
- }
- ?>
+}
+if ($request->getFullActionName() == 'cms_page_view') {
+?>
+<!--<div class="pagehead">
+<div class="container">
+<h1 class="page-title"><?php //echo $block->getLayout()->getBlock('head')->getTitle(); ?></h1>
+</div>
+</div>-->
+<?php
+}
+?>
