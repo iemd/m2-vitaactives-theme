@@ -25,11 +25,27 @@ $mediaUrl = $objectManager->get('Magento\Store\Model\StoreManagerInterface')
                     ->getBaseUrl(\Magento\Framework\UrlInterface::URL_TYPE_MEDIA);
 
 
-
+$cart = $objectManager->get('\Magento\Checkout\Model\Cart');
+$totalItems = $cart->getQuote()->getItemsQty();
 
 ?>
 <ul class="nav navbar-nav navbar-right" style="margin-right: 18px;">
-<li><a style="color: #1c3349;" href="#"><img src="<?php echo $block->getViewFileUrl('images/search.png'); ?>"> Search</a></li>
+<li>
+  <!--<a style="color: #1c3349;" href="#"><img src="<?php //echo $block->getViewFileUrl('images/search.png'); ?>">Search</a>-->
+
+
+    <?php  echo $this->getLayout()
+              ->createBlock('Magento\Framework\View\Element\Template')
+              ->setTemplate('Magento_Search::form.mini.phtml')
+              ->toHtml(); ?>
+
+
+
+</li>
 <li><a style="color: #1c3349;" href="<?php echo $baseUrl.'customer/account/login'; ?>" ><img style="overflow: hidden; image-rendering: pixelated;" src="<?php echo $block->getViewFileUrl('images/user.png'); ?>"> Login</a></li>
-<li><a style="color: #1c3349;" href="#">Cart <span class="badge Oval">0</span></a></li>
+<li><a style="color: #1c3349;" href="<?php echo $baseUrl.'checkout/cart/index'; ?>">Cart <span class="badge Oval"><?php if($totalItems){echo round($totalItems);}else{echo 0;} ?></span></a></li>
+<?php  //echo $this->getLayout()
+      //    ->createBlock('Magento\Checkout\Block\Cart\Sidebar')
+      //    ->setTemplate('Magento_Checkout::cart/minicart.phtml')
+      //    ->toHtml(); ?>
 </ul>

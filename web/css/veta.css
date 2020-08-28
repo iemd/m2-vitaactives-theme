@@ -1,3 +1,74 @@
+.pagehead {
+    background: linear-gradient(90deg, #a6cddc, #bfc5cf, #e4b8bd);
+    color: #ffffff;
+}
+.At-Vita-Actives {
+    opacity: 0.6;
+    font-family: Muli;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #1c3349;
+}
+.edito {
+    width: 473px;
+    height: 393px;
+    margin: 49px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px 0 rgba(28, 51, 73, 0.13);
+    background-color: #ffffff;
+}
+.Why-choose {
+    font-family: Muli;
+    font-size: 30px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #1c3349;
+}
+.dot {
+    height: 32px;
+    width: 32px;
+    margin-bottom: 12px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    border: solid 1px #00a265;
+    opacity: 0.6;
+    font-family: Muli;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #1c3349;
+}
+.digit {
+    text-align: center;
+    line-height: 1;
+    margin: 6px;
+}
+.alin {
+    position: absolute;
+    top: 88px;
+    opacity: 0.6;
+    padding-left: 15px;
+    font-family: Muli;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #1c3349;
+}
+
 .page-layout-vitahome .page-main{
 	max-width: 100% !important;
     padding-left: 0 !important;
@@ -1251,11 +1322,130 @@ z-index: 10001;
 .col-sm-4.btn.Write-To-Us{
     margin-left: 41px;
 }
-.btn{
+.edito .btn{
     width: 155px;
     line-height: 2;
   height: 50px;
   border-radius: 10px;
   border: solid 1px #ff7178;
 
+}
+/*--------*/
+.product-list{
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 0px #aaaaaa;
+  padding: 10px 1px;
+  overflow: hidden;
+}
+.product-list .product-item{}
+.product-item{
+    display: flex !important;
+
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 23px;
+    padding-bottom: 15px;
+    font-size: 24px;
+    padding-top: 25px;
+    color: #1c3349;
+     border-bottom: 2px solid #1c33491a;
+}
+.product-list .product-item:last-child {
+  border: unset;
+}
+.product-list .product-item .pdetails{padding: 10px; }
+.product-list .product-item .pdetails .pname{
+  font-family: Muli;
+  font-size: 20px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  /*text-align: center;*/
+  color: #1c3349;
+  font-weight: 900; }
+.product-list .product-item .pdetails .desc{
+  font-family: Muli;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1c3349;
+
+}
+.product-list .product-item .pdetails .descgray{
+  opacity: 0.5;
+  font-family: Muli;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+
+   }
+.product-list .product-item .paction{
+  border-radius: 6px;
+
+  border: solid 1px #00509e;
+}
+.btn-design6 {
+    font-family: Muli;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  padding-bottom: 7px;
+  text-align: right;
+  color: #00509e;
+
+ }
+/*Layered Navigation*/
+.filteroption .filterhead{
+  font-size: 18px;
+  font-weight: 900;
+}
+.filteroption .filteroptions{
+  opacity: 0.8;
+  padding: 25px 15px;
+  border-radius: 8px;
+  border: solid 1px #495c6d;
+  overflow: hidden;
+}
+.filteroption .filteroptions .filterlist{
+  padding: 0px;
+  list-style: none;
+}
+.filterlisthead{
+  opacity: 0.8;
+  font-family: Muli;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1c3349;
+   }
+ .filterlist li{   opacity: 0.8;
+  font-family: Muli;
+  font-size: 11px;
+
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1c3349;}
+.filteroption .filteroptions .filterlist li label {  }
+ .filterlist li label input[type=checkbox] {
+padding: 10px;
+margin: 8px;
+  }
+.filteroption .filteroptions .filterlist li label span{
+  font-weight: 500;
 }

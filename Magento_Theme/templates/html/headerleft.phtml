@@ -35,7 +35,9 @@ if ($request->getFullActionName() == 'catalog_category_view') {
 <div class="col-sm-4 "><a href="<?php echo $baseUrl;?>"><img style="margin: 6px 13px; max-width: fit-content; width: 77px;" src="<?php echo $block->getViewFileUrl('images/group-25.png'); ?>"></a></div>
 </div>
 <?php
-}else if($request->getFullActionName() == 'cms_page_view' || $request->getFullActionName() == 'customer_account_login' || $request->getFullActionName() == 'customer_account_create') {
+}else if($request->getFullActionName() == 'cms_page_view' || $request->getFullActionName() == 'customer_account_login'
+|| $request->getFullActionName() == 'customer_account_create' || $request->getFullActionName() == 'checkout_cart_index'
+|| $request->getFullActionName() == 'catalog_product_view') {
 ?>
 <div class="navbar-header"><button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar"> </button>
 <div class="col-sm-4 "><a href="<?php echo $baseUrl;?>"><img style="margin: 6px 13px; max-width: fit-content; width: 77px;" src="<?php echo $block->getViewFileUrl('images/group-25.png'); ?>"></a></div>
