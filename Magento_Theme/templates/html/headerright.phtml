@@ -27,10 +27,10 @@ $mediaUrl = $objectManager->get('Magento\Store\Model\StoreManagerInterface')
 
 $cart = $objectManager->get('\Magento\Checkout\Model\Cart');
 $totalItems = $cart->getQuote()->getItemsQty();
-
+$customerSession = $objectManager->create('Magento\Customer\Model\Session');
 ?>
 <ul class="nav navbar-nav navbar-right" style="margin-right: 18px;">
-<li>
+<li >
   <!--<a style="color: #1c3349;" href="#"><img src="<?php //echo $block->getViewFileUrl('images/search.png'); ?>">Search</a>-->
 
 
@@ -42,7 +42,21 @@ $totalItems = $cart->getQuote()->getItemsQty();
 
 
 </li>
-<li><a style="color: #1c3349;" href="<?php echo $baseUrl.'customer/account/login'; ?>" ><img style="overflow: hidden; image-rendering: pixelated;" src="<?php echo $block->getViewFileUrl('images/user.png'); ?>"> Login</a></li>
+  <?php if($customerSession->isLoggedIn()) : ?>
+<li class="dropdown "><a class="dropdown-toggle" style="color: #1c3349;" href="#" data-toggle="dropdown"><?php echo $customerSession->getCustomer()->getName(); ?></a>
+  <ul class="dropdown-menu">
+    <li><a href="<?php echo $this->getUrl("customer/account/login");?>"><?php echo __('My Account')?></a></li>
+    <li><a href="<?php echo $this->getUrl("customer/account/logout");?>"><?php echo __('Log out')?></a></li>
+  </ul>
+</li>
+ <?php else:?>
+   <li class="">
+  <a style="color: #1c3349;" href="<?php echo $baseUrl.'customer/account/login'; ?>" >
+    <img style="overflow: hidden; image-rendering: pixelated;" src="<?php echo $block->getViewFileUrl('images/user.png'); ?>">
+     Login
+  </a>
+</li>
+<?php endif;?>
 <li><a style="color: #1c3349;" href="<?php echo $baseUrl.'checkout/cart/index'; ?>">Cart <span class="badge Oval"><?php if($totalItems){echo round($totalItems);}else{echo 0;} ?></span></a></li>
 <?php  //echo $this->getLayout()
       //    ->createBlock('Magento\Checkout\Block\Cart\Sidebar')
