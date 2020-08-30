@@ -1449,3 +1449,271 @@ margin: 8px;
 .filteroption .filteroptions .filterlist li label span{
   font-weight: 500;
 }
+/*------------login.phtml------------------------------*/
+.customer-account-login .page-title-wrapper{margin-bottom: 0;}
+.customer-account-login .page-main{max-width:100% !important;padding-left: 0;padding-right: 0;}
+.customer-account-login input.form {
+    width: 300px;
+    height: 50px;
+    border-radius: 3px;
+    border: solid 1px #b9bbbd;
+    background-color: #ffffff;
+}
+.customer-account-login label.l2 {
+    width: 40px;
+    height: 18px;
+    font-family: Muli;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.76px;
+    text-align: right;
+    color: #858585;
+    margin-right: 20px;
+}
+.customer-account-login label.l1 {
+    /* width: 40px; */
+    height: 18px;
+    font-family: Muli;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.76px;
+    text-align: right;
+    color: #858585;
+    margin-left: -14px;
+    padding-right: 11px;
+}
+.customer-account-login p.forget {
+    text-align: right;
+    margin-top: 17px;
+    margin-bottom: -1px;
+    /*width: 128px;*/
+    height: 15px;
+    font-family: Muli;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #003971;
+}
+.customer-account-login button.btn.btn-info.btn {
+    width: 299px;
+    height: 60px;
+    margin-right: -67px;
+    border-radius: 10px;
+    background-color: #ff7178;
+    font-size: 25px;
+    font-weight: 600;
+}
+.customer-account-login .text-center.text {
+    padding: 18px;
+    border-top: 1px solid;
+    margin-top: 30px;
+}
+.customer-account-login p.textr {
+    display: inline;
+    padding-right: 26px;
+    width: 207px;
+    height: 22px;
+    font-family: Muli;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1c3349;
+}
+.customer-account-login span.span {
+    width: 158px;
+    height: 23px;
+    font-family: Muli;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ff7178;
+}
+.customer-account-login .blankoption {
+    padding-top: 100%;
+    position: relative;
+}
+.customer-account-login .blankoption .addnewaddress {
+    text-align: center;
+    padding: 0px 60px;
+    color: #00509e !important;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-family: Muli;
+}
+.customer-account-login .gr {
+    display: flex;
+}
+.customer-account-login p.cert {
+    width: 55px;
+    height: 33px;
+    font-family: Muli;
+    font-size: 25px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    color: #1c3349;
+}
+.customer-account-login p.cret {
+    width: 69px;
+    height: 25px;
+    opacity: 0.5;
+    font-family: Muli;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+    /*font-weight: 600;*/
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #1c3349;
+}
+.customer-account-login a.left {
+    margin-left: 64px;
+    margin-top: 10px;
+    /* width: 49px; */
+    height: 15px;
+    font-family: Muli;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: right;
+    color: #00509e;
+}
+.customer-account-login .bggray {
+   background-color: #f2f5f7;
+   margin-bottom: 30px;
+  }
+.customer-account-login .addressbox {
+    border-radius: 8px;
+    box-shadow: 0 3px 10px 0 rgba(28, 51, 73, 0.13);
+    border: solid 1px #d9e2e8;
+    background-color: #ffffff;
+    padding: 20px;
+}
+.customer-account-login h1.quotestatun {
+    width: 264px;
+    height: 33px;
+    font-family: Muli;
+    font-size: 25px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    color: #1c3349;
+    margin-bottom: 10px;
+}
+.customer-account-login .quotefinal {
+   padding-top: 50px;
+   padding-bottom: 50px;
+
+}
+.customer-account-login .quotefinal .quotestatus{
+   font-family: Muli;
+ font-size: 50px;
+ font-weight: 900;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1.2;
+ letter-spacing: normal;
+ color: #1c3349;
+ }
+.customer-account-login .quotefinal .quotesubstatus{
+   font-family: Muli;
+ font-size: 20px;
+ font-weight: 800;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ color: #1c3349;
+ }
+ .customer-account-login .quotefinal .quotestatus.failed{
+   color: #ea5320;
+ }
+ .customer-account-login .quotefinal .quotestatusdesc{
+ font-family: Muli;
+ font-size: 20px;
+ font-weight: normal;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1.6;
+ letter-spacing: normal;
+ color: #1c334999;
+ }
+ .customer-account-login .quotefinal .quotestatusdesc strong{
+   font-family: Muli;
+ font-size: 20px;
+ font-weight: bold;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1.6;
+ letter-spacing: normal;
+ color: #003971;
+ }
+ .customer-account-login .quotefinal .qsubmitbtn{}
+
+.customer-account-login .rightbox {
+    display: block !important;
+    text-align: left !important;
+    padding: 20px !important;
+  }
+.customer-account-login .rightbox.centered {
+    text-align: center !important;
+  }
+.customer-account-login .rightbox .hbox{
+      font-family: Muli;
+  font-size: 16px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1c3349;
+  }
+.customer-account-login .rightbox .himg1{
+     width: 80px;
+      height: 80px;
+  }
+.customer-account-login .rightbox .himg1{
+   width: 60px;
+  height: 60px;
+  }
+.customer-account-login .rightbox h5{
+    font-family: Muli;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1c3349;
+  }
+/*-------------------------------------------------------*/
