@@ -1,6 +1,9 @@
+//  Create Static Block
+//  Block Title: Header Navbar
+//  Identifier: header_navbar
+//==================================
 <!--Static Block Content -->
-<div class="container">
-<!--HeaderLeft PHTML-->
+<div class="container"><!--HeaderLeft PHTML--> {{block class="Magento\Framework\View\Element\Template" template="Magento_Theme::html/headerleft.phtml"}}
 <div id="myNavbar" class="collapse navbar-collapse" style="margin: 15px 13px 0px;">
 <ul class="nav navbar-nav withmega" style="margin-left: 146px;">
 <li class=""><a class="About-Us" style="color: #1c3349;" href="{{store url="about"}}">About Us</a></li>
@@ -23,8 +26,8 @@
 <div class="col-sm-3">
 <h3>Categories</h3>
 <ul class="vlist">
-<li><a href="#">Amino acids</a></li>
-<li><a href="#">Proteins and peptides</a></li>
+<li>{{widget type="Magento\Catalog\Block\Category\Widget\Link" title="Amino acids" template="category/widget/link/link_inline.phtml" id_path="category/3"}}</li>
+<li>{{widget type="Magento\Catalog\Block\Category\Widget\Link" title="Proteins and peptides" template="category/widget/link/link_inline.phtml" id_path="category/4"}}</li>
 <li><a href="#">Vitamins and Vitamin premixes</a></li>
 <li><a href="#">Minerals and Mineral premixes</a></li>
 <li><a href="#">Carbohydrates and Fibres</a></li>
@@ -60,9 +63,8 @@
 </div>
 </div>
 </li>
-<li class=""><a class="" style="color: #1c3349;" href="#">Vita Premixes</a></li>
+<li class=""><a class="" style="color: #1c3349;" href="{{store url="vita-premixes"}}">Vita Premixes</a></li>
 <li class="dropdown"><a class="dropdown-toggle " style="color: #1c3349;" href="#" data-toggle="dropdown">Services </a></li>
 </ul>
-<!--Headerright PHTML-->
-</div>
+<!--Headerright PHTML--> {{block class="Magento\Framework\View\Element\Template" template="Magento_Theme::html/headerright.phtml"}}</div>
 </div>
