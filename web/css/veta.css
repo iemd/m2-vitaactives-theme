@@ -1745,7 +1745,7 @@ margin: 8px;
     height: 18px;
     font-family: Muli;
     font-size: 14px;
-    font-weight: normal;
+    font-weight: normal !important;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -1755,11 +1755,27 @@ margin: 8px;
     margin-left: -14px;
     padding-right: 11px;
 }
+.customer-account-create .fieldset{
+      margin: 0 0 20px !important;
+}
+.customer-account-create .fieldset > .field {
+      margin: 0 0 20px;
+}
+.customer-account-create .password-strength-meter {
+    background-color: #f4f4f4;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 9px;
+    position: relative;
+    z-index: 1;
+    color: #858585;
+    width: 300px;
+}
 .customer-account-create p.forget {
     text-align: right;
-    margin-top: 17px;
-    margin-bottom: -1px;
-    /*width: 128px;*/
+    /*margin-top: 17px;
+    margin-bottom: -1px;*/
+    width: 300px;
     height: 15px;
     font-family: Muli;
     font-size: 12px;
